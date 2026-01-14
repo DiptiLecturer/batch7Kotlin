@@ -306,7 +306,7 @@ fun main() {
         }*/
 
 
-        /*        println("\n=== 1️⃣ Immutable List ===")
+               println("\n=== 1️⃣ Immutable List ===")
                 val fruits = listOf("Apple", "Banana", "Mango", "Apple")
                 println("Fruits List: $fruits")
                 println("First fruit: ${fruits.first()}")
@@ -314,33 +314,33 @@ fun main() {
                 println("Is 'Banana' in list? ${fruits.contains("Banana")}")
                 println("Sorted fruits: ${fruits.sorted()}")
 
-                println("\n=== 2️⃣ Mutable List ===")
+               /* println("\n=== 2️⃣ Mutable List ===")
                 val mutableFruits = mutableListOf("Orange", "Pineapple")
                 println("Before: $mutableFruits")
                 mutableFruits.add("Grapes")
                 mutableFruits.remove("Orange")
-                println("After add/remove: $mutableFruits")
+                println("After add/remove: $mutableFruits")*/
 
-                println("\n=== 3️⃣ Immutable Set ===")
+               /* println("\n=== 3️⃣ Immutable Set ===")
                 val numbersSet = setOf(1, 2, 3, 3, 4)
-                println("Numbers Set (duplicates removed): $numbersSet")
+                println("Numbers Set (duplicates removed): $numbersSet")*/
 
-                println("\n=== 4️⃣ Mutable Set ===")
+              /*  println("\n=== 4️⃣ Mutable Set ===")
                 val mutableNumbers = mutableSetOf(5, 6, 7)
                 println("Before: $mutableNumbers")
                 mutableNumbers.add(6) // ignored
                 mutableNumbers.add(8)
-                println("After add: $mutableNumbers")
+                println("After add: $mutableNumbers")*/
 
-                println("\n=== 5️⃣ Immutable Map ===")
+        /*        println("\n=== 5️⃣ Immutable Map ===")
                 val student = mapOf(
                     "Name" to "Aminul",
                     "Age" to 22,
                     "Grade" to "A"
                 )
                 println("Student Info: $student")
-                println("Name: ${student["Name"]}")
-
+                println("Name: ${student["Name"]}")*/
+/*
                 println("\n=== 6️⃣ Mutable Map ===")
                 val subjects = mutableMapOf<String, Int>()
                 subjects["Math"] = 90
@@ -348,39 +348,24 @@ fun main() {
                 subjects["Science"] = 95
                 println("Subjects & Marks: $subjects")
                 subjects["Math"] = 92 // update
-                println("After updating Math: $subjects")
+                println("After updating Math: $subjects")*/
 
-                println("\n=== 7️⃣ Looping Through Collections ===")
 
-                println("-- Loop through Array --")
-                for (num in numbersArray) {
-                    println(num)
-                }
 
-                println("-- Loop through List --")
-                for (fruit in mutableFruits) {
-                    println(fruit)
-                }
 
-                println("-- Loop through Set --")
-                for (num in mutableNumbers) {
-                    println(num)
-                }
 
-                println("-- Loop through Map --")
-                for ((subject, mark) in subjects) {
-                    println("$subject = $mark")
-                }
-
-                println("\n=== 8️⃣ Collection Functions Example ===")
+               /* println("\n=== 8️⃣ Collection Functions Example ===")
                 val marks = listOf(60, 70, 80, 90, 100)
                 println("Marks: $marks")
                 println("Size: ${marks.size}")
                 println("Max mark: ${marks.maxOrNull()}")
                 println("Min mark: ${marks.minOrNull()}")
                 println("Sum of marks: ${marks.sum()}")
-                println("Average mark: ${marks.average()}")
-            */
+                println("Average mark: ${marks.average()}")*/
+
+
+ //null safety
+
 
 
 

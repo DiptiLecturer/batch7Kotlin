@@ -305,14 +305,14 @@ fun main() {
 
         }*/
 
-
+/*
                println("\n=== 1️⃣ Immutable List ===")
                 val fruits = listOf("Apple", "Banana", "Mango", "Apple")
                 println("Fruits List: $fruits")
                 println("First fruit: ${fruits.first()}")
                 println("Last fruit: ${fruits.last()}")
                 println("Is 'Banana' in list? ${fruits.contains("Banana")}")
-                println("Sorted fruits: ${fruits.sorted()}")
+                println("Sorted fruits: ${fruits.sorted()}")*/
 
                /* println("\n=== 2️⃣ Mutable List ===")
                 val mutableFruits = mutableListOf("Orange", "Pineapple")
